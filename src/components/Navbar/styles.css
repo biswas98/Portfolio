@@ -14,6 +14,6 @@
 }
 .list_item {
   margin: 20% 0;
-
-  /* writing-mode: vertical-lr; */
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }

@@ -5,9 +5,15 @@ export const Navbar = () => {
   return (
     <div className="nav_Container">
       <ul className="list_Container">
-        <li className="list_item">HOME</li>
-        <li className="list_item">ABOUT</li>
-        <li className="list_item">CONTACT</li>
+        <li className="list_item">
+          <a href="#">HOME</a>
+        </li>
+        <li className="list_item">
+          <a href="#">ABOUT</a>
+        </li>
+        <li className="list_item">
+          <a href="#">CONTACT</a>
+        </li>
       </ul>
     </div>
   );
