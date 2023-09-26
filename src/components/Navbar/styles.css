@@ -14,5 +14,6 @@
 }
 .list_item {
   margin: 20% 0;
-  text-justify: distribute-all-lines;
+
+  /* writing-mode: vertical-lr; */
 }

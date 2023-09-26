@@ -1,5 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('./assets/fonts/CascadiaCode.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cascadia Code', monospace;
 }
