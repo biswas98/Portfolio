@@ -1,12 +1,17 @@
-.nav_Container {
-    display: inline-block;
-}
-.list_Container {
+/* .nav_Container {
   
-    display: inline-block;
+
+} */
+.list_Container {
+  height: 100vh;
+  width: 10%;
   border: 1px solid black;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .list_item {
-  margin: 100% 0;
+  margin: 20% 0;
 }
