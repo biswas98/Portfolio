@@ -1,0 +1,12 @@
+.nav_Container {
+    display: inline-block;
+}
+.list_Container {
+  
+    display: inline-block;
+  border: 1px solid black;
+  list-style-type: none;
+}
+.list_item {
+  margin: 100% 0;
+}
