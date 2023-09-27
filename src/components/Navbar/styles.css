@@ -17,3 +17,11 @@
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
+.nav_anchor_style {
+  text-decoration: none;
+  color: red;
+}
+
+.list_item:hover {
+  font-size: 40;
+}

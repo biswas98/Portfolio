@@ -6,13 +6,19 @@ export const Navbar = () => {
     <div className="nav_Container">
       <ul className="list_Container">
         <li className="list_item">
-          <a href="#">HOME</a>
+          <a className="nav_anchor_style" href="#">
+            HOME
+          </a>
         </li>
         <li className="list_item">
-          <a href="#">ABOUT</a>
+          <a className="nav_anchor_style" href="#">
+            ABOUT
+          </a>
         </li>
         <li className="list_item">
-          <a href="#">CONTACT</a>
+          <a className="nav_anchor_style" href="#">
+            CONTACT
+          </a>
         </li>
       </ul>
     </div>
