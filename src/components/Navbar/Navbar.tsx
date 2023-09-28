@@ -25,6 +25,11 @@ export const Navbar = () => {
             RESUME
           </a>
         </li>
+        <li className="list_item">
+          <a className="nav_anchor_style" href="#">
+            GITHUB
+          </a>
+        </li>
       </ul>
     </div>
   );
