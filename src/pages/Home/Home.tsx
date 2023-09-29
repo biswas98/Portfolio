@@ -9,9 +9,7 @@ export const Home = () => {
   return (
     <div>
       {click ? <Navbar /> : null}
-      <button className="btn-style" onClick={() => setClick(!click)}>
-        Click me
-      </button>
+      <button className="btn-style" onClick={() => setClick(!click)} />
     </div>
   );
 };
