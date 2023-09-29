@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { Navbar } from '../../components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import './styles.css';
 
@@ -12,7 +10,6 @@ export const Home = () => {
     <div>
       {click ? <Navbar /> : null}
       <button className="btn-style" onClick={() => setClick(!click)} />
-      <FontAwesomeIcon icon={faEnvelope} />
     </div>
   );
 };
