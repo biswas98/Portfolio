@@ -1,16 +1,11 @@
-import { useState } from 'react';
+import { Home } from './pages';
+
 import './App.css';
-import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
-  const [click, setClick] = useState(false);
-  console.log(click);
   return (
     <>
-      {click ? <Navbar /> : null}
-      <button className="btn-style" onClick={() => setClick(!click)}>
-        Click me
-      </button>
+      <Home />
     </>
   );
 }
