@@ -13,11 +13,10 @@ body {
 }
 
 .btn-style {
-  width: 10%;
+  width: 5%;
   height: 10%;
   border: 1px solid black;
   position: absolute;
   top: 20%;
-  right: 20%;
   font-size: 30px;
 }
