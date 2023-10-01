@@ -8,7 +8,8 @@ export const Home = () => {
   console.log(click);
   return (
     <div>
-      <button className="nav-option" onClick={() => setClick(!click)} />
+      <button className="nav_option" onClick={() => setClick(!click)} />
+
       {click ? <Navbar /> : null}
     </div>
   );
