@@ -3,6 +3,7 @@
 
 } */
 .list_Container {
+  margin-top: 10%;
   height: 80vh;
   width: 100px;
   border: 1px solid black;
