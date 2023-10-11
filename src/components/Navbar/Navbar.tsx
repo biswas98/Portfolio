@@ -5,7 +5,6 @@ export const Navbar = () => {
     <div className="nav_Container">
       <ul className="list_Container">
         <li className="list_item">
-          {/* Need to implement nav animation */}
           <a className="nav_anchor_style" href="#">
             HOME
           </a>
