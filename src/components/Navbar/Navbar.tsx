@@ -19,6 +19,11 @@ export const Navbar = () => {
             CONTACT
           </a>
         </li>
+        <li className="list_item">
+          <a className="nav_anchor_style" href="#">
+            RESUME
+          </a>
+        </li>
       </ul>
     </div>
   );
