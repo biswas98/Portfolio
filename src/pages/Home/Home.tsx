@@ -14,7 +14,7 @@ export const Home = () => {
       <div className="nav_option_container">
         <button className="nav_option" onClick={() => setClick(!click)} />
         {click ? (
-          <motion.div animate={{ y: click ? 50 : 0 }}>
+          <motion.div animate={{ y: click ? 10 : 0 }}>
             <Navbar />
           </motion.div>
         ) : null}
